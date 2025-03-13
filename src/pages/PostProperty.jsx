@@ -1044,18 +1044,18 @@ const PostProperty = () => {
                                 </div>
 
                                 <div className="flex gap-4">
-                                    <button
+                                    {/* <button
                                         type="submit"
                                         className="flex-1 py-3 bg-blue-500 text-white rounded-md font-medium hover:bg-blue-600 transition-colors"
                                     >
                                         Submit
-                                    </button>
+                                    </button> */}
                                     <button
                                         type="button"
                                         onClick={saveAsDraft}
-                                        className="flex-1 py-3 bg-gray-200 text-gray-800 rounded-md font-medium hover:bg-gray-300 transition-colors"
+                                        className="flex-1 py-3 bg-blue-500 text-white rounded-md font-medium hover:bg-gray-900 transition-colors"
                                     >
-                                        Save as Draft
+                                        Submit
                                     </button>
                                 </div>
                             </form>
